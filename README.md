@@ -8,6 +8,7 @@
 - Los enunciados de los ejercicios se encuentran dentro de las carpetas de ejercicios.
 - Para cada ejercicio plantear los método http que considere necesario junto con el nombre del recurso.
 - También verificar que los valores (params, query, body) al consultar, crear, modificar o quitar estén dentro de valores válidos.
+- Por último agregar un archivo http en cada ejercicio para probar los distintos métodos.
 - Realizar al menos un commit por ejercicio.
 - Crear un pull request una vez finalizado el trabajo práctico.
 
