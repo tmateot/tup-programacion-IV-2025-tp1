@@ -1,0 +1,41 @@
+### 
+POST http://localhost:3000/tareas
+Content-Type: application/json
+
+{
+  "nombre": "Estudiar",
+  "completada": false
+}
+
+### 
+POST http://localhost:3000/tareas
+Content-Type: application/json
+
+{
+  "nombre": "Comprar",
+  "completada": true
+}
+
+### 
+GET http://localhost:3000/tareas
+
+### 
+GET http://localhost:3000/tareas?estado=completada
+
+### 
+GET http://localhost:3000/tareas?estado=sincompletar
+
+### 
+GET http://localhost:3000/tareas/Estudiar
+
+### 
+PUT http://localhost:3000/tareas/Estudiar
+Content-Type: application/json
+
+{
+  "nuevoNombre": "Estudiar JS",
+  "completada": true
+}
+
+### 
+DELETE http://localhost:3000/tareas/Estudiar JS

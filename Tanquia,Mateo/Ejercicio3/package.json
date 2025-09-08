@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tareas.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch tareas.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
