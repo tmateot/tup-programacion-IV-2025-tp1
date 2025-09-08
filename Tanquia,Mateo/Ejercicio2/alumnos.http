@@ -1,0 +1,30 @@
+
+POST http://localhost:3000/alumnos
+Content-Type: application/json
+
+{
+  "nombre": "Juan",
+  "nota1": 7,
+  "nota2": 8,
+  "nota3": 6
+}
+
+
+GET http://localhost:3000/alumnos
+
+
+GET http://localhost:3000/alumnos/Juan
+
+
+PUT http://localhost:3000/alumnos/Juan
+Content-Type: application/json
+
+{
+  "nombre": "Juan Perez",
+  "nota1": 9,
+  "nota2": 10,
+  "nota3": 8
+}
+
+
+DELETE http://localhost:3000/alumnos/Juan Perez

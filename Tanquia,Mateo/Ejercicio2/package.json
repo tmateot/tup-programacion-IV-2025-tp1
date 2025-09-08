@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "alumnos.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch alumnos.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
